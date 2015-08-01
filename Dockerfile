@@ -1,5 +1,5 @@
-FROM mongo:2.6
-MAINTAINER Ilya Stepanov <dev@ilyastepanov.com>
+FROM mongo:3.1.4
+MAINTAINER ighs <hgs.dev@gmail.com>
 
 RUN apt-get update && \
     apt-get install -y cron && \
